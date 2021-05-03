@@ -2,25 +2,23 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.videos {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+video {
+  width: 40vw;
+  height: 30vw;
+  margin: 2rem;
+  background-color: #333e49;
 }
